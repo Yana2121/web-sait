@@ -33,7 +33,7 @@ const HelloWord = () => {
         </ol>
       </div>
 
-      <h3 className="m-h3">Комментарии</h3>
+      <h3 className="m-h2">Комментарии</h3>
       <div className="line5" />
       <p className="p">
         Python никак не обрабатывает комментарии, кроме специального случая в
