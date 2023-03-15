@@ -1,5 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import polsovatel from "../assets/Rukovodstvo_polzovatelya.docx";
+import programmist from "../assets/Rukovodstvo_programmista.docx";
 
 function Header() {
   return (
@@ -37,11 +39,7 @@ function Header() {
         <p>
           <button className="button">
             <p>
-              <a
-                className="Text-h"
-                href="/assets/Rukovodstvo_polzovatelya.docx"
-                download
-              >
+              <a className="Text-h" href={polsovatel} download>
                 Руководство пользователя
               </a>
             </p>
@@ -51,11 +49,7 @@ function Header() {
         <p>
           <button className="button">
             <p>
-              <a
-                className="Text-h"
-                href="/assets/Rukovodstvo_programmista.docx"
-                download
-              >
+              <a className="Text-h" href={programmist} download>
                 Руководство программиста
               </a>
             </p>
